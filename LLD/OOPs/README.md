@@ -1,5 +1,3 @@
-![1730834251306](image/README/1730834251306.png)
-
 # OOPs
 
 ## Abstraction
