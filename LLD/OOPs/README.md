@@ -48,3 +48,11 @@ Base* obj = new derived(); // obj type is Base* but morphs/work as Derived binde
 ```
 
 **Abstract and Encapsulation go hand in hand similarly Inheritance and Polymorphism go hand in hand.**
+
+### Overloading : Static polymorphism
+
+same function name.
+
+### Overrriding : Dynamic Polymorphism 
+
+same function signature with virtual method.

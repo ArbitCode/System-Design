@@ -42,6 +42,7 @@ OOPs Principle
   * [ ] Abstract Factory
   * [ ] Builder
   * [ ] Prototype
+  * [ ] Dependecy Injection
 * [ ] Structure
   * [ ] Adapter
   * [ ] Composite
