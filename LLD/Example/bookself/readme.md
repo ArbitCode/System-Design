@@ -1,6 +1,6 @@
 # Requirements
 
-##### Iterator : 1 (Single Responsibility Principle) Cohesive Class
+## Iterator : 1 (Single Responsibility Principle) Cohesive Class
 
 1. A user must be able to add a fictional book and their attributes to the catalogue
 2. The attributes for each book shall be books title and author's first and last name.
@@ -9,17 +9,17 @@
 5. String matches of the book titles and authors' first and last names must be case insensitive.
 6. A user must be able to specifiy any number of wild-card target attributes.
 
-##### Iterator : 2 (Encapsulation, delegation, and loose coupling)
+## Iterator : 2 (Encapsulation, delegation, and loose coupling)
 
 1. Add two more book atributes : the publication year and genre (ADVENTURE, DETECTIVE, FANTASY, HISTORIC, HORROR, ROMANCE, SCIFI)
 
-**Principle: Encapsulation - The Encapsulate what varies supports the principle of least knowledge**
+Principle: Encapsulation - The Encapsulate what varies supports the principle of least knowledge
 
 **Principle: Delegates - Move functionality out of one class(requester) into another class(delegates) to make two class more cohesive. The requester class commonly has member variable that points to delegates class.**
 
 **Loose Coupling : Least Knowledge about other classes.**
 
-##### Iterator : 3 (More kinds of books and their attributes) lot's of subclass so bad design
+## Iterator : 3 (More kinds of books and their attributes) lot's of subclass so bad design
 
 1. It must be able to add cookbooks and their attributes to the catalog.
 2. The attributes for cookbook must include its region (CHINA, FRANCE, INDIA, ITALY, MEXICO, US, NONE)
@@ -28,9 +28,9 @@ Principle: Open-Closed Principle: supports loose coupling and encapsulation
 
 Principle: Don't Repeat Yourself
 
-##### Iterator : 4 Use Map [Solution]
+## Iterator : 4 Use Map [Solution]
 
-#### Summary:
+## Summary
 
 * It Usually takes several development iterations to achieve a well desinged program. Be willing to backtrack from bad desigin decisions.
 * SRP : states that a class should be cohesive and have only one primary responsibility.
