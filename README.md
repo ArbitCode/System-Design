@@ -20,6 +20,7 @@ OOPs Principle
 ### UML Diagram
 
 * Class Diagram
+* Use Case Diagram
 * State Diagram
 * Sequence Diagram
 
@@ -67,3 +68,5 @@ OOPs Principle
 High level design
 
 ![HLD](./Diagrams/HLD.png)
+
+## Extra
