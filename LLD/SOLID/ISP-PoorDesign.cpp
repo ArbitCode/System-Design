@@ -1,16 +1,14 @@
 #include <iostream>
 
-class Bonus
-{
-  virtual int getBonus() = 0;
-};
+
 class Employee
 {
 public:
   virtual int getSalary() = 0;
+  virtual int getBonus() = 0;
 };
 
-class EmployeeFullTime : public Employee, public Bonus
+class EmployeeFullTime : public Employee
 {
   int bonus = 10;
   int salary = 1000;
@@ -25,6 +23,7 @@ class ContractEmployee : public Employee
   int salary = 100;
   public:
     int getSalary() { return salary; }
+    int getBonus() { return 0; } // not needed. ISP voilates
 };
 
 int main()
@@ -37,7 +36,7 @@ int main()
     std::cout << "Emp Salary: " << emp->getSalary() << std::endl;
     std::cout << "Emp Bonus: " << emp->getBonus() << std::endl;
     std::cout << "cemp Salary: " << cemp->getSalary() << std::endl;
-    //std::cout << "cemp Bonus: " << cemp->getBonus() << std::endl;
+    std::cout << "cemp Bonus: " << cemp->getBonus() << std::endl;
   }
   catch (std::exception &ex)
   {
