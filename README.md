@@ -10,7 +10,7 @@ Low level design : It focus on implementation of indivisual components of HLD.
 
 ![LLD](./Diagrams/LLD.png)
 
-OOPs Principle
+### OOPs Principle
 
 * Encapsulation
 * Abstraction
